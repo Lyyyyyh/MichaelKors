@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录页面</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/MK.css" />
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/MK.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-top">
+				<div class="top1 text-center">
+				<div class="top1-content">
+					<span>夏季酬宾，现已开始。</span>
+					<a href="###">查看详情></a>
+					<a class="plus" href="###"><span class="glyphicon glyphicon-plus"></span></a>
+				</div>
+			</div>
+			
+			<div class="top2 text-center">
+				<div class="top2-content">
+					夏季酬宾，现已开始。<br />
+					低至五折优惠，更享免费配送。<br />
+					<a href="###">查看详情></a>
+					<a class="remove" href="###"><span class="glyphicon glyphicon-remove"></span></a>
+				</div>
+				
+			</div>
+			</div>
+			
+		
+			
+<!--————————————————导航条————————————————-->
+			<div class="navbar">
+				<!--<div class="container-fluid">-->
+					<div class="collapse navbar-collapse">
+						<ul class="list-unstyled nav-top1">
+							<li class="pull-left">
+								<a href="#">
+									<span class="glyphicon glyphicon-map-marker"></span>
+									&nbsp;&nbsp;精品店指南
+								</a>
+							</li>
+							<li class="pull-left contact-us">
+								<a href="#">
+									<span class="glyphicon glyphicon-headphones"></span>
+									&nbsp;&nbsp;联系我们
+								</a>
+								<div class="wechat-mado">
+									<div class="wechat-title">如果您有任何疑问与建议，敬请联系</div>
+									<a class="btn-black" href="javascript:XJY_Livechat_LcShow()">
+										<div class="btnBox">联系MK在线时尚顾问</div>
+									</a>
+									<div class="wechat-splitLine">
+										<span>OR</span>
+									</div>
+									<div class="wechat-tx">
+										<div>你也可以</div>
+										<div class="pub-con">
+											<span class="glyphicon glyphicon-fullscreen"></span>
+											<p>MICHAEL KORS<br />
+											官方微信公众号<br />
+											联系在线时尚顾问
+											</p>
+										</div>
+									</div>
+									<div class="wechat-img">
+										<img src="img/Bitmap.jpg" />
+									</div>
+								 </div>
+							</li>
+							
+							<li class="pull-right func schBox ">
+								<form class="navbar-form">
+						            <div class="form-group">
+						            	<input class="input-group-xs searchbox1" type="text" class="form-control" placeholder="搜索" />
+						                <input class="input-group-xs searchbox" type="text" class="form-control" placeholder="搜索" />
+						                
+						            	<span class="glyphicon glyphicon-search"></span>
+						            </div>
+	       						</form>
+							</li>
+							<li class="pull-right func cart">
+								<a href="#">
+									<span class="glyphicon glyphicon-shopping-cart"></span>
+									&nbsp;&nbsp;购物袋
+								</a>
+								<div class="cart-mado">
+									<h3 class="cart-title">购物袋</h3>
+									<p class="cart-num">您的购物袋里有<span class="num">0</span>件商品</p>
+									<button type="enroll" class="btn btn-default">查看购物袋</button>
+								</div>
+							</li>
+							<li class="pull-right func login">
+								<a href="#">
+									<span class="glyphicon glyphicon-user"></span>
+									&nbsp;&nbsp;登录  | 注册
+								</a>
+								<div class="login-mado">
+									<form>
+										<fieldset id="">
+											<legend>登录</legend>
+											<div class="form-group">
+												<label>手机号码</label>
+												<input type="email" class="form-control" placeholder="请输入您的手机号码" />
+											</div>
+											<div class="form-group">
+												<label>密码</label>
+												<input type="password" class="form-control" placeholder="请输入密码" />
+											</div>
+											<div class="checkbox">
+												<label>
+													<input type="checkbox"/>记住我
+												</label>
+												<label class="forgetPassword">
+													<a class="forgetPassword-tx" href="https://www.michaelkors.cn/member/forgetpassword">忘记密码？</a>
+												</label>
+											</div>
+											<button type="login" class="btn btn-black">登录</button>
+											<p>还不是会员？</p>
+											<button type="enroll" class="btn btn-default">注册</button>
+										</fieldset>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="navbar-header">
+						<span class="glyphicon glyphicon-menu-hamburger navbar-toggle pull-left" data-toggle="collapse" data-target="#navbar-collapse"></span>
+						<div class="logo text-center"><a href="###"><img src="img/logo.png"></a></div> 
+						<span class="glyphicon glyphicon-shopping-cart navbar-toggle" data-toggle="collapse"></span>
+						<span class="glyphicon glyphicon-search navbar-toggle" data-toggle="collapse"></span>
+					</div>
+					<div class="navbar-header2">
+						<span class="glyphicon glyphicon-remove navbar-toggle pull-left" data-toggle="collapse" data-target="#navbar-collapse"></span>
+						<div class="logo text-center"><a href="###"><img src="img/logo.png"></a></div> 
+						<span class="glyphicon glyphicon-shopping-cart navbar-toggle" data-toggle="collapse"></span>
+						<span class="glyphicon glyphicon-search navbar-toggle" data-toggle="collapse"></span>
+					</div>
+					<div class="collapse navbar-collapse navlist nav-top2-menu" id="navbar-collapse">
+						<ul class="list-unstyled nav-top2">
+							<li class="jump lady">
+								<a href="#">WOMEN | 女士</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="jump">
+								<a href="#">MEN | 男士</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="jump">
+								<a href="#">手袋</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="jump">
+								<a href="#">鞋履</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="jump">
+								<a href="#">配饰</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="jump">
+								<a href="#">腕表</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="jump">
+								<a href="#">礼品</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="jump">
+								<a href="#">SALE | 优惠</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li>
+								<a href="#" style="color:#AC8E4C;">DESTINATION KORS</a>
+								<a class="pull-right"><span class="glyphicon glyphicon-menu-right commona-black"></span></a>
+							</li>
+							<li class="coll-ex">
+								<a href="#">
+									<span class="glyphicon glyphicon-user"></span>
+									&nbsp;&nbsp;登录  | 注册
+								</a>
+							</li>
+							<li class="coll-ex">
+								<a href="#">
+									<span class="glyphicon glyphicon-map-marker"></span>
+									&nbsp;&nbsp;精品店指南
+								</a>
+							</li>
+							<li class="coll-ex">
+								<a href="#">
+									<span class="glyphicon glyphicon-headphones"></span>
+									&nbsp;&nbsp;联系我们
+								</a>
+							</li>
+						</ul>
+<!------------------WOMEN女士内容弹出框-------------------->
+			<div class="sub-menu-box hidden-xs">
+				<div class="item-sect col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>甄选系列</a></li>
+						<li><a href="">新品上市</a></li>
+						<li><a href="">甜美海蓝</a></li>
+						<li><a href="">MERCER系列手袋</a></li>
+						<li><a href="">CUSTOM KORS定制系列</a></li>
+						<li><a href="">KORS STYLE单品推荐</a></li>
+					</ul>
+				</div>
+				<div class="item-kind col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">服饰</a></li>
+						<li><a href="">手袋</a></li>
+						<li><a href="">鞋履</a></li>
+						<li><a href="">腕表</a></li>
+						<li><a href="">配饰</a></li>
+						<li><a href="">MICHAEL KORS COLLECTION</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>畅销推荐</a></li>
+						<li><a href=""><img src="img/sub-menu-box/1.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+			
+<!-----------------男士内容弹出框-------------------->			
+			<div class="sub-menu-box hidden-xs">
+				<div class="item-sect col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>甄选系列</a></li>
+						<li><a href="">新品上市</a></li>
+						<li><a href="">星座钱夹</a></li>
+						<li><a href="">POLO休闲T恤系列</a></li>
+					</ul>
+				</div>
+				<div class="item-kind col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">手袋</a></li>
+						<li><a href="">配饰</a></li>
+						<li><a href="">服饰</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>畅销推荐</a></li>
+						<li><a href=""><img src="img/sub-menu-box/2.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+			
+<!------------------手袋弹出框内容------------------->
+            <div class="sub-menu-box hidden-xs">
+            	<div class="item-sect col-lg-4 col-md-4 col-sm-4">
+            		<ul class="list-unstyled">
+            			<li class="special-color"><a>甄选系列</a></li>
+            			<li><a href="">丝巾组合</a></li>
+            			<li><a href="">MERCER系列手袋</a></li>
+            			<li><a href="">SCOUT相机包系列</a></li>
+            			<li><a href="">CUSTOM KORS定制系列</a></li>
+					</ul>
+				</div>
+				<div class="item-kind col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">托特包</a></li>
+						<li><a href="">手提包</a></li>
+						<li><a href="">单肩包</a></li>
+						<li><a href="">双肩背包</a></li>
+						<li><a href="">钱夹</a></li>
+						<li><a href="">小皮件</a></li>
+						<li><a href="">MICHAEL KORS COLLECTION</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+					<li class="special-color"><a>畅销推荐</a></li>
+					<li><a href=""><img src="img/sub-menu-box/3.jpg"/></a></li>
+				</ul>
+				</div>
+			</div>
+			
+<!-------------------鞋履弹出框内容-------------------->
+			<div class="sub-menu-box hidden-xs">
+				<div class="item-sect col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>甄选系列</a></li>
+						<li><a href="">POPPY运动鞋履系列</a></li>
+					</ul>
+				</div>
+				<div class="item-kind col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">运动鞋</a></li>
+						<li><a href="">平底鞋</a></li>
+						<li><a href="">高跟鞋</a></li>
+						<li><a href="">凉鞋</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>畅销推荐</a></li>
+						<li><a href=""><img src="img/sub-menu-box/4.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+			
+<!--------------------配饰弹出框内容------------------->
+			<div class="sub-menu-box hidden-xs">
+				<div class="item-sect col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>甄选系列</a></li>
+						<li><a href="">甜美小物</a></li>
+						<li><a href="">缤纷挂件</a></li>
+					</ul>
+				</div>
+				<div class="item-kind col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">香氛</a></li>
+						<li><a href="">钱夹</a></li>
+						<li><a href="">小皮件</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-4 col-md-4 col-sm-4">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>畅销推荐</a></li>
+						<li><a href=""><img src="img/sub-menu-box/5.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+			
+<!--------------------腕表弹出框内容------------------->
+			<div class="sub-menu-box hidden-xs">
+				<div class="item-kind col-lg-6 col-md-6 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">女士腕表</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-6 col-md-6 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>畅销推荐</a></li>
+						<li><a href=""><img src="img/sub-menu-box/6.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+		
+<!-------------------礼品弹出框内容-------------------->
+			<div class="sub-menu-box hidden-xs">
+				<div class="item-kind col-lg-6 col-md-6 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">女士礼品</a></li>
+						<li><a href="">男士礼品</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-6 col-md-6 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>畅销推荐</a></li>
+						<li><a href=""><img src="img/sub-menu-box/7.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+			
+<!--------------------SALE | 优惠--------------------->
+			<div class="sub-menu-box hidden-xs">
+				<div class="item-kind col-lg-6 col-md-6 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>品类</a></li>
+						<li><a href="">查看全部</a></li>
+						<li><a href="">女士</a></li>
+						<li><a href="">男士</a></li>
+					</ul>
+				</div>
+				<div class="item-hot col-lg-6 col-md-6 col-sm-6">
+					<ul class="list-unstyled">
+						<li class="special-color"><a>畅销推荐</a></li>
+						<li><a href=""><img src="img/sub-menu-box/8.jpg"/></a></li>
+					</ul>
+				</div>
+			</div>
+					</div>
+				<!--</div>-->
+			</div>
+
+			
+		</div>
+		
+<!-------------------------登录的内容--------------------->
+		<section class="register-bg-cont">
+			<article class="article">
+				<div class="register-title">
+					<div>
+						<h2>登录</h2>
+					<div class="login-now hidden-xs">
+						<span>还不是会员？</span>
+						<span><a href="###">立即注册</a></span>
+					</div>
+					</div>
+					
+				</div>
+			</article>
+			<article class="article">
+				<div class="register-cont">
+					<div class="verification">
+						<form class="form-section" role="form">
+							<div class="form-group">
+								<label class="control-label hidden-xs">手机号码</label>
+								<div class="form-input">
+									<input type="email" class="form-control" placeholder="请输入11位手机号码"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label hidden-xs">密码</label>
+								<div class="form-input">
+									<input type="password" class="form-control" placeholder="密码至少6位"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="checkbox">
+									<label><input type="checkbox"/>记住我</label>
+									<label class="forgetPassword">
+										<a class="forgetPassword-tx" href="https://www.michaelkors.cn/member/forgetpassword">忘记密码？</a>
+									</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-default submit">登录</button>
+							</div>
+							<div class="form-group visible-xs">
+								<p>还不是会员？</p>
+								<button type="enroll" class="btn btn-default">注册</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</article>
+		</section>		
+		
+		
+<!----------------最下面页脚内容------------------->
+        
+		<div class="footer-top">
+<!--------------------------左边部分---------------------------->
+			<div class="left-section col-lg-6 col-md-6">
+				<div class="store-locator">
+					<a href="#">
+						<span class="glyphicon glyphicon-map-marker"></span>
+							精品店指南
+					</a>
+				</div>
+				<div class="newsletter-subs">
+					<p class="title">从 MICHAEL KORS 订阅最新资讯</p>
+					<div class="email-input-box">
+						<input type="text" class="" placeholder="请输入您的电子邮箱" name="" id="" value="" />
+					    <span class="">订阅</span>
+					</div>
+					
+				</div>
+				<div class="social-links">
+					<ul class="list-unstyled">
+						<li>
+							<a href="http://weibo.com/michaelkors">
+								<img src="img/myicon/weibo.png" />
+							</a>
+						</li>
+						<li class="yincang">
+							<a href="">
+								<img src="img/myicon/weixin.png" />
+							</a>
+						</li>
+						<li>
+							<a class="http://i.youku.com/i/UNDU4MTQ0MTgw">
+								<img src="img/myicon/bofang.png" />
+							</a>
+						</li>
+						<li class="yincang">
+							<a href="tel:400-103-8882">
+								<img src="img/myicon/lianxi.png" />
+								<span>400-103-8882(周一至周日：早9点至晚10点)</span>
+							</a>
+						</li>
+						<li class="yincang">
+							<img src="img/myicon/guwen.png" />
+							<a href="javascript:XJY_Livechat_LcShow()">在线时尚顾问</a>
+							|
+							<a> 微信时尚顾问</a>
+						</li>
+					</ul>
+				</div>
+			</div>						
+<!--------------------------右边部分---------------------------->
+			<div class="right-section col-lg-6 col-md-6">
+				<dl class="rsBox1 col-lg-4 col-md-4">
+					<dt><a>关于我们</a></dt>
+					<span class="plus glyphicon glyphicon-plus"></span>
+					<span class="minus glyphicon glyphicon-minus"></span>
+					<div class="slidebox">
+						<dd><a href="https://www.michaelkors.cn/kors-cares/watch-hunger-stop">KORS CARES</a></dd>
+					</div>
+				</dl>
+				<dl class="rsBox2 col-lg-4 col-md-4">
+					<dt><a>我的账户</a></dt>
+					<span class="plus glyphicon glyphicon-plus"></span>
+					<span class="minus glyphicon glyphicon-minus"></span>
+					<div class="slidebox">
+						<dd><a href="https://www.michaelkors.cn/member/register">注册</a></dd>
+					<dd><a href="https://www.michaelkors.cn/myAccount">账户首页</a></dd>
+					<dd><a href="https://www.michaelkors.cn/myAccount/personalData">个人资料</a></dd>
+					<dd><a href="https://www.michaelkors.cn/myAccount/address.htm">地址簿</a></dd>
+					<dd><a href="https://www.michaelkors.cn/myAccountOrder">我的订单</a></dd>
+					<dd><a href="https://www.michaelkors.cn/myAccount/myFavoritesList">我的心愿单</a></dd>
+					<dd><a href="https://www.michaelkors.cn/common/privacyPolicy">隐私条款</a></dd>
+					</div>
+				</dl>
+				<dl class="rsBox3 col-lg-4 col-md-4">
+					<dt><a>客户服务</a></dt>
+					<span class="plus glyphicon glyphicon-plus"></span>
+					<span class="minus glyphicon glyphicon-minus"></span>
+					<div class="slidebox">
+						<dd><a href="https://www.michaelkors.cn/common/faq">FAQ</a></dd>
+					<dd><a href="https://www.michaelkors.cn/order/turnToOrderTrack">订单查询</a></dd>
+					<dd><a href="https://www.michaelkors.cn/common/returnsExchanges">退换货政策</a></dd>
+					<dd><a href="https://www.michaelkors.cn/common/warrantyAndRepairPpolicy">质量保证和维修</a></dd>
+					<dd><a href="https://www.michaelkors.cn/common/membersInterests">会员权益</a></dd>
+					</div>
+				</dl>
+			</div>
+		</div>
+		
+		<div class="footer-returnTop" onclick='returnTop()'>
+        		<span class="glyphicon glyphicon-chevron-up"></span>
+        		<span class="return-tx">TOP</span>
+        </div>
+		
+		<div class="footer-bottom">
+			<ul class="list-unstyled">
+				<li class="hide1024">
+					<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602000358">
+						<img src="img/myicon/record-icon.png" />
+						沪公网安备31010602000358号  | 沪ICP备13005807 | © 2017 MICHAEL KORS
+					</a>
+				</li>
+				<li class="show1024">
+					<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602000358">
+						<img src="img/myicon/record-icon.png" />
+						沪公网安备31010602000358号 <br />
+						沪ICP备13005807<br />
+						© 2017 MICHAEL KORS
+					</a>
+				</li>
+				<li>
+					<a href="https://www.michaelkors.cn/common/privacyPolicy">
+					    隐私条款
+					</a>
+				</li>
+			</ul>
+		</div>
+	
+	</body>
+</html>
